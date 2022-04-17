@@ -53,11 +53,35 @@
 
 //ba in dastoor ma addadeh dakheleh array jam kardim
 
-let numbers=[0,1,2,5,8,25,9,7];
-let x;
-let result=numbers.reduce(function(x,y){
-    return x+y;
-})
-console.log(result);
+// let numbers=[0,1,2,5,8,25,9,7];
+// let x;
+// let result=numbers.reduce(function(x,y){
+//     return x+y;
+// })
+// console.log(result);
 // ba estefadeh az dastooreh reduce ma mitoonim
 // elemantahaye yek array ba ham jam konim
+//+++++++++++++++++++++++++++++++++++++++
+
+
+
+    //function declaration
+
+    function sum(a,b){
+        return a+b;
+    }
+    console.log(sum(2,5));
+
+    // dar bala ma dar in function asme 
+    //function seda mikonim mostagim
+//============================================
+    // function expiration
+
+    let result=function(a,b){
+        return a+b;
+    }
+    console.log(result(2,3));
+
+    // tafavodeshoon bar ineh ke dar declaration
+    //javaScript hamoon on in function ejra nemikoneh
+    //vali dar expiration hamoon lahzeh ejra mikoneh
