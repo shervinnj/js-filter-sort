@@ -42,13 +42,22 @@
  
 //+++++++++++++++++++++++++++++++++++++++
 
-let numbers=[0,1,2,5,8,25,9,7];
+// let numbers=[0,1,2,5,8,25,9,7];
 
-let sum=0;
+// let sum=0;
 
-for(let number of numbers){
-    sum=sum+number;
-}
-console.log(sum);
+// for(let number of numbers){
+//     sum=sum+number;
+// }
+// console.log(sum);
 
 //ba in dastoor ma addadeh dakheleh array jam kardim
+
+let numbers=[0,1,2,5,8,25,9,7];
+let x;
+let result=numbers.reduce(function(x,y){
+    return x+y;
+})
+console.log(result);
+// ba estefadeh az dastooreh reduce ma mitoonim
+// elemantahaye yek array ba ham jam konim
