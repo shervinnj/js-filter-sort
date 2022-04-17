@@ -117,4 +117,15 @@ console.log(arr.firstName);
 //ba estefade az in dastor ma mitoonim 
 // dastresi dashte bashim be obejecthaye arryemoon
 
+function Name(firstName,LastName){
+    this.nam=firstName;
+    this.lName=LastName;
 
+    this.fullName=function(){
+        return `${this.nam} ${this.lName}`
+    }
+}
+let asmehkochak=new Name("shervin","nj");
+console.log(asmehkochak.fullName());
+//ravesheh astefadeh az function ba chand parameter
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++
