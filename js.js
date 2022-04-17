@@ -18,21 +18,37 @@
 
 
 
-let numbers=[0,1,2,5,-2,8,25,9,7];
-let result;
-result=numbers.map(function(number){
+// let numbers=[0,1,2,5,-2,8,25,9,7];
+// let result;
+// result=numbers.map(function(number){
 
-    return `<li>${number}</li>`
-})
+//     return `<li>${number}</li>`
+// })
 
-result=result.join("");
+// result=result.join("");
 
 
-console.log(numbers);
-console.log(result);
+// console.log(numbers);
+// console.log(result);
 
 //dar mesaleh balah ma omadim map() astefadeh kardim
 //map karesh chiyeh? objecthayeh ti array 
 //tabdil mikoneh be string va ye li add kardam
 //barayeh sakhtaneh list va dar akhar az result.join()
 //estefadeh kardam ta faseleh beyneshono moratab konam
+// sort rooyeh arrayeh tagirato ijad mikoneh 
+//filter joda gooneh in karo anjam mideh
+//++++++++++++++++++++++++++++++++++++++++
+ 
+//+++++++++++++++++++++++++++++++++++++++
+
+let numbers=[0,1,2,5,8,25,9,7];
+
+let sum=0;
+
+for(let number of numbers){
+    sum=sum+number;
+}
+console.log(sum);
+
+//ba in dastoor ma addadeh dakheleh array jam kardim
