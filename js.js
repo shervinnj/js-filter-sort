@@ -102,3 +102,19 @@
 
    
 // megdar dehi be function ba parameter binahayad
+
+//+++++++++++++++++++++++++++
+function Person(){
+    this.firstName="shervin";
+    this.lastName="nj";
+}
+
+let arr=new Person();
+
+console.log(arr.firstName);
+
+
+//ba estefade az in dastor ma mitoonim 
+// dastresi dashte bashim be obejecthaye arryemoon
+
+
