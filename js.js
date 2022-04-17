@@ -85,3 +85,20 @@
     // tafavodeshoon bar ineh ke dar declaration
     //javaScript hamoon on in function ejra nemikoneh
     //vali dar expiration hamoon lahzeh ejra mikoneh
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+    function sun(...rest){
+
+        let Q=0;
+        for(let item of rest){
+
+            Q = Q + item;
+        }
+
+         return Q;
+
+    }
+    console.log(sun(1,2,4,5));
+
+   
+// megdar dehi be function ba parameter binahayad
